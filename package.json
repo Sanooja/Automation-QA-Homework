@@ -1,0 +1,21 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "@codeceptjs/configure": "^0.10.0",
+    "codeceptjs": "^3.4.1",
+    "webdriverio": "^6.12.1"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.22.4"
+  }
+}
